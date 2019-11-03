@@ -1,9 +1,9 @@
 # purescript-halogen-storybook-example
 
-An example setup of purescript-halogen-storybook with webpack and [tailwindcss](https://next.tailwindcss.com/).
+An example setup of purescript-halogen-storybook with [spago](https://github.com/spacchetti/spago), [parcel](https://github.com/parcel-bundler/parcel) and [tailwindcss](https://next.tailwindcss.com/).
 
 ```
 yarn
-pulp -w build
-yarn start
+spago build -w
+parcel index.html
 ```
